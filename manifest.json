@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Test for data scrapping",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.carfax.com/*",
+        "http://www.carfax.com/*"
+      ],
+      "js": ["jquery.js", "content.js"]
+    }
+  ]
+}
